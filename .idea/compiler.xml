@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demospring-boot-demo-war" />
+        <module name="sprinb-boot-demo" />
         <module name="spring-boot-demo-war" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demospring-boot-demo-war" target="1.8" />
+      <module name="sprinb-boot-demo" target="1.8" />
       <module name="spring-boot-demo-2-1" target="1.8" />
       <module name="spring-boot-demo-war" target="1.8" />
     </bytecodeTargetLevel>
